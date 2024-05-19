@@ -1,0 +1,28 @@
+{
+  "name": "isoenv",
+  "repository": "github:fabiospampinato/isoenv",
+  "description": "A cross-platform Map-like interface for reading and writing environment variables.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "isomorphic",
+    "environment",
+    "variables"
+  ],
+  "devDependencies": {
+    "fava": "^0.3.2",
+    "tsex": "^4.0.2",
+    "typescript": "^5.5.0-beta"
+  }
+}
