@@ -20,6 +20,9 @@
     "environment",
     "variables"
   ],
+  "dependencies": {
+    "function-once": "^3.0.0"
+  },
   "devDependencies": {
     "fava": "^0.3.2",
     "tsex": "^4.0.2",
