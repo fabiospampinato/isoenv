@@ -8,7 +8,10 @@ import type {Env} from './types';
 
 const getEnv = once ((): Env => {
 
-  return globalThis.process?.env || {};
+  const process = ( globalThis.process ||= {} );
+  const env = ( process.env ||= {} );
+
+  return env;
 
 });
 
