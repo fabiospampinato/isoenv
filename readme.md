@@ -7,7 +7,7 @@ If available it will use the `globalThis.process.env` object, otherwise it will 
 ## Install
 
 ```sh
-npm install --save isoenv
+npm install isoenv
 ```
 
 ## Usage
