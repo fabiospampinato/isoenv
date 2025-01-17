@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/isoenv",
   "description": "A cross-platform Map-like interface for reading and writing environment variables.",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
